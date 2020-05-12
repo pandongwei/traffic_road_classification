@@ -1,0 +1,49 @@
+the classifier is:  SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=1e-05,
+    verbose=False)
+test accuracy without kalman 4 classes: 79.41%
+test accuracy with kalman 4 classes: 91.18%
+the classifier is:  SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=1e-05,
+    verbose=False)
+test accuracy without kalman 4 classes: 79.41%
+test accuracy with kalman 4 classes: 91.18%
+the classifier is:  SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=1e-05,
+    verbose=False)
+test accuracy without kalman 4 classes: 79.41%
+test accuracy with kalman 4 classes: 91.18%
+test accuracy with kalman 3 classes: 95.1%
+the final missclassed list [1, 47, 60, 62, 71]
+the classifier is:  BaggingClassifier(base_estimator=SVC(C=10, cache_size=200, class_weight=None,
+                                     coef0=0.0, decision_function_shape='ovr',
+                                     degree=3, gamma='scale', kernel='rbf',
+                                     max_iter=-1, probability=True,
+                                     random_state=None, shrinking=True,
+                                     tol=1e-05, verbose=False),
+                  bootstrap=True, bootstrap_features=True, max_features=1.0,
+                  max_samples=1.0, n_estimators=10, n_jobs=10, oob_score=False,
+                  random_state=None, verbose=0, warm_start=False)
+test accuracy without kalman 4 classes: 78.43%
+test accuracy with kalman 4 classes: 92.16%
+test accuracy with kalman 3 classes: 97.06%
+the final missclassed list [47, 62, 71]
+the classifier is:  SVC(C=10, break_ties=False, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=1e-05,
+    verbose=False)
+test accuracy without kalman 4 classes: 79.41%
+test accuracy with kalman 4 classes: 90.2%
+test accuracy with kalman 3 classes: 95.1%
+the final missclassed list [1, 46, 47, 62, 71]
+the classifier is:  SVC(C=10, break_ties=False, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=1e-05,
+    verbose=False)
+test accuracy without kalman 4 classes: 79.41%
+test accuracy with kalman 4 classes: 88.24%
+test accuracy with kalman 3 classes: 94.12%
+the final missclassed list [1, 46, 47, 60, 62, 71]

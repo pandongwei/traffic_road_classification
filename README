@@ -1,0 +1,18 @@
+This repository includes all the code related to the master thesis.
+
+Here are some attention points:
+
+1. not all the codes are included, eg. the probability SVM, FHOG feature, GIST feature, image preprocessing.
+
+2. To extract the SIFT/SURF feature and use the BOW method, the OpenCV with < 3.4.1 version needs to be installed.
+Or you can enter the virtual envoronment firstly, which consists of all the required package, and then uncommand the DETECTOR in params.py
+Command:
+cd ~/master-thesis-in-mrt/decision-tree/
+source venv_py/bin/activate
+Then the code can be runned.
+
+3.On the top of each file, there has an explaination of the file. And also there have some TODO things in the code, which are usually the paths need to be changed.
+
+4.All the MobileNetV3 models base on Keras, while all the MobileNetV2 models base on Pytorch.
+
+5. If you have any question, please write me an email: 15626180685@163.com
